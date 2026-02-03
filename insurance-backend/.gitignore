@@ -1,0 +1,78 @@
+# =========================
+# General & System
+# =========================
+.DS_Store
+Thumbs.db
+*.log
+.vscode/
+.idea/
+*.swp
+
+# =========================
+# Frontend (React / Vite)
+# =========================
+# Dependencies
+**/node_modules/
+**/.pnp
+**/.pnp.js
+
+# Testing
+**/coverage/
+
+# Production Build
+**/dist/
+**/build/
+
+# Environment Variables (Keep these secret!)
+**/.env
+**/.env.local
+**/.env.development.local
+**/.env.test.local
+**/.env.production.local
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# =========================
+# Backend (Java / Spring Boot / Maven)
+# =========================
+# Compiled class files
+*.class
+
+# Log files
+*.log
+**/logs/
+
+# Maven output directory (CRITICAL)
+**/target/
+
+# Package Files
+*.jar
+*.war
+*.nar
+*.ear
+*.zip
+*.tar.gz
+*.rar
+
+# Eclipse / STS specific
+.classpath
+.project
+.settings/
+.springBeans
+
+# IntelliJ specific
+*.iml
+*.ipr
+*.iws
+
+# Visual Studio Code specific
+.vscode/
+.zencoder/
+.zenflow/
+
+# Spring Boot specific
+**/HELP.md
+**/.mvn/wrapper/maven-wrapper.properties
