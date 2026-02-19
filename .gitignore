@@ -1,0 +1,76 @@
+#################################################
+# 🔹 OS Files
+#################################################
+.DS_Store
+Thumbs.db
+
+#################################################
+# 🔹 IDE Files
+#################################################
+.idea/
+.vscode/
+*.iml
+*.ipr
+*.iws
+
+#################################################
+# 🔹 Backend - Spring Boot / Maven
+#################################################
+
+# Maven build folder
+insurance-backend/target/
+**/target/
+
+# Logs
+*.log
+
+# Spring Boot files
+*.pid
+*.seed
+*.pid.lock
+
+# Generated folders
+insurance-backend/.mvn/wrapper/maven-wrapper.jar
+
+# Application secrets (IMPORTANT)
+insurance-backend/src/main/resources/application.properties
+insurance-backend/src/main/resources/application-*.properties
+
+# Environment variables
+.env
+.env.*
+
+# Security files
+*.key
+*.pem
+*.jks
+
+#################################################
+# 🔹 Frontend - Vite / React / Node
+#################################################
+
+# Node modules
+insurance-frontend/node_modules/
+insurance-backend/node_modules/
+
+# Frontend build output
+insurance-frontend/dist/
+
+# Vite cache
+insurance-frontend/.vite/
+
+#################################################
+# 🔹 Package locks (Optional - keep if team project)
+#################################################
+# insurance-frontend/package-lock.json
+
+#################################################
+# 🔹 Docker
+#################################################
+docker-data/
+
+#################################################
+# 🔹 Misc
+#################################################
+*.swp
+*.swo

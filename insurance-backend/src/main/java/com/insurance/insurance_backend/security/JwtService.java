@@ -19,7 +19,7 @@ public class JwtService {
 
     // 1. HARDCODED KEY: This fixes the "signature does not match" error on restart.
     // This is a 256-bit Base64 encoded string.
-    private static final String SECRET_KEY = "c2hhbnotMzIteW91ci1zdXBlci1zZWNyZXQta2V5LWZvci1pbnN1cmFuY2UtcHJvamVjdA==";
+    private static final String SECRET_KEY = "SECRET_KEY=";
 
     public String extractUsername(String token) {
         return extractClaim(token, Claims::getSubject);
